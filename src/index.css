@@ -1,7 +1,7 @@
 /* ===========Variables======================== */
 :root{
     --text                  :white;
-    --header                :black;
+    --header                :rgba(0, 0, 0, 0);
     --Borders               :rgb(255, 255, 255);
     --navbackground         :rgb(111, 104, 255);
     --black                 :black;

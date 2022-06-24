@@ -14,6 +14,7 @@ function Home() {
         <div className="titlebox">
           <h1>Welcome to my Webstie | Arnab</h1>
           <p>{para}</p>
+          <button id="resume">Download Resume</button>
         </div>
         <img id='webdesign' src={require("./images/webdesign.jpg")} alt='.'/>
       </section>

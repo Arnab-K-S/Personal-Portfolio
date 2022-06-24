@@ -1,5 +1,7 @@
-img,        
+img,
 .cardbody   {       
+    margin-top: 5%;
+    margin-bottom: 5%;
     width                       :   inherit;
     height                      :   inherit;
 }       
@@ -10,7 +12,7 @@ img,
     color                       :    var(--black);
     padding                     :    2%;
     align-items                 :    center;
-    width                       :    50vh;
+    width                       :    20rem;
     border-radius               :    1vh;
     transition                  :    1s;
     background-color            :    var(--text);
@@ -27,6 +29,19 @@ img,
 .flexbox{
     display                     :    grid;
     column-gap                  :    20px;
-    grid-template-columns       :    auto auto auto;
+    grid-template-columns       :    33% 33% 33%;
 
+}
+
+.card h1{
+    font-size                   :   larger;
+    font-family                 :   'Montserrat',sans-serif ;
+    font-weight                 :   900;
+    background-color            : var(--basecolor);
+    color                       : var(--white);
+    padding                     : 1%;
+}
+
+.cardbody{
+    font-family: 'Mukta',sans-serif;
 }
