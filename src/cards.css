@@ -1,0 +1,32 @@
+img,        
+.cardbody   {       
+    width                       :   inherit;
+    height                      :   inherit;
+}       
+
+.card {     
+    margin-top                  :    5%;
+    margin-inline               :    2%;
+    color                       :    var(--black);
+    padding                     :    2%;
+    align-items                 :    center;
+    width                       :    50vh;
+    border-radius               :    1vh;
+    transition                  :    1s;
+    background-color            :    var(--text);
+    font-size                   :    3vh;
+    text-align                  :    center;
+    justify-content             :    center;
+}       
+
+.card:hover {       
+    box-shadow                  :    0.3vh 0.3vh 0.3vh 0.3vh var(--shadow);
+    transition                  :    1s ease-in-out;
+}
+
+.flexbox{
+    display                     :    grid;
+    column-gap                  :    20px;
+    grid-template-columns       :    auto auto auto;
+
+}

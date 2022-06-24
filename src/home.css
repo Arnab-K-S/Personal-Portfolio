@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Mukta:wght@200&family=Titan+One&display=swap');
+
+
+#d1 {
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#section1{
+    display: flex;
+
+}
+.titlebox{
+    padding: 2%;
+    background-color: var(--white);
+    color: var(--black);
+    width: 50%;
+    height: 50vh;
+    box-shadow: 0.1vh 0.1vh 1vh 0.1vh var(--shadow);
+    margin-right: 2%;
+    border-radius: 1vh 20vh 20vh 1vh;
+}
+.titlebox h1{
+    /* ----Fonts---------------------- */
+    font-family: 'Montserrat',sans-serif;
+    font-size: 8vh;
+    font-weight: 800;
+    padding: 1%;
+}
+
+.titlebox p{
+        padding: 2%;
+        font-family: 'Mukta', sans-serif;
+        text-align: center;
+        text-decoration: solid;
+}
+
+#webdesign{
+    align-self: center;
+    filter:contrast(20vh);
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: 2%;
+    box-shadow: 0.5vh 0.5vh 0.5vh 0vh var(--shadow);
+}
+#webdesign:hover{
+    filter: none();
+}
+
+#frontpage{
+    width: 100%;
+    filter: saturate(2);
+    margin-top: 5%;
+}
