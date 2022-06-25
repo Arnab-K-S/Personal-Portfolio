@@ -5,14 +5,13 @@ import './home.css'
 const para = `Personal Portfolio Website as well as my first reactjs project.
 This website contains an accumulation of all my projects and skills.
 This website was made by me in my first year where i explored and gained a bit of experience in various fields of computer science. My top skills include css and web front end desiging , python automation and web scrapping.`
-
 function Home() {
   return (
     <>
-      <Wave />
+      <Wave/>
       <section id='section1'>
         <div className="titlebox">
-          <h1>Welcome to my Webstie | Arnab</h1>
+          <h1 id="intro">Welcome to my Webstie | Arnab</h1>
           <p>{para}</p>
           <button id="resume">Download Resume</button>
         </div>

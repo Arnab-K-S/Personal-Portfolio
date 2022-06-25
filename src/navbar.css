@@ -9,19 +9,22 @@ li {
 }
 
 ul {
+    padding                 :        2%;
+    display                 :        flex;
     margin-left             :        auto;
     background-color        :        transparent;
-}
-
-nav,
-ul {
-    display                 :        flex;
-    align-items             :        center;
-    justify-content         :        center;
+    align-items             :        flex-start;
+    justify-content         :        space-around;
 }
 
 nav {
-    background-color        :        var(--navbackground);
+    display                 :        flex;
+    align-items             :        flex-start;
+    justify-content         :        flex-start;
+}
+
+nav {
+    background-color        :        var(--basecolor);
     padding-inline-end      :        3%;
     padding-top             :        2%;
     padding-bottom          :        1%;
@@ -54,7 +57,7 @@ button {
     border-radius           :        1vh;
 }
 
-nav button:active::before {
+li button:active::before {
     content                 :        '';
     position                :        absolute;
     z-index                 :        -1;
@@ -66,14 +69,56 @@ nav button:active::before {
     background-color        :        var(--white);
 }
 
-nav button:active,
-nav button:hover {
+ul button:active,
+ul button:hover {
     background-size         :        100%;
-    background-color        :        var(--text);
-    transition              :        1s linear;
     color                   :        var(--black);
+    background-color        :        var(--white);
+    transition              :        1s linear;
 }
 
-nav button:active {
+ul button:active {
     transform               :        translateY(-1rem);
+}
+
+@media only screen and (max-width:740px) {
+    nav,ul{
+        flex-direction: column;
+        align-items : center;
+        font-size: small;
+        margin-left: 0%;
+    }
+    #welcome{
+        font-size:50px;
+    }
+}
+
+/* =========Themes Dropdown Menu========== */
+
+#dropmenu{
+    display: none;
+    background-color: var(--background);
+    align-items: center;
+    justify-content: space-around;
+    padding: none;
+    transition: 1s ease-in-out;
+    position: absolute;
+    width:20vh;
+}
+
+#dropmenu:hover button:hover{
+    background-color: var(--black);
+    color: var(--white);
+}
+#dropmenu button{
+margin: none;
+color: var(--black);
+}
+
+.dropbtn:hover #dropmenu{
+    display: none;
+}
+
+#dropmenu button:active{
+    transform: none;
 }

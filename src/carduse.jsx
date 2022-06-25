@@ -1,12 +1,5 @@
 import Cards from "./cards"
 import './cards.css'
-const Pythoncard=()=>{
-    return (
-        <>
-            
-        </>
-    )
-}
 const cardArray =[
 { 
         cardHeading : "Python Programming & Automation",
@@ -20,8 +13,8 @@ const cardArray =[
     
 },
 
-{   cardHeading : "Android Development",
-        cardText: "Learning in Progress",
+{   cardHeading : "C++",
+        cardText: "First Programming Language | Learned Data Structures and Algorithms | Vectors | Linked Lists | Pointers | STL | Search Algorithms",
         cardImg: require("./images/2.jpg")
 },
 {   cardHeading : "Web Development",
