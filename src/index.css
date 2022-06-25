@@ -22,20 +22,20 @@
 }
 
 .DarkTheme{
---text          : rgb(255, 255, 255);
---Borders       : rgb(0 0 0);
---black         : white;
---shadow        : rgba(0, 0, 0, 0.346);
---background    : rgb(46 46 46);
---grey          : rgb(181, 181, 181);
---white         : black;
---basecolor     : rgb(26, 24, 92);
+    --text          : rgb(255, 255, 255);
+    --Borders       : rgb(0 0 0);
+    --black         : rgb(158, 158, 158);
+    --shadow        : rgba(0, 0, 0, 0.346);
+    --background    : rgb(46 46 46);
+    --grey          : rgb(181, 181, 181);
+    --white         : black;
+    --basecolor     : rgb(26, 24, 92);
 }
 
 .greenery{
     --text: rgb(0, 0, 0);
     --Borders: rgb(255, 255, 255);
-    --black: rgb(255, 255, 255);
+    --black: rgba(255, 255, 255, 0.796);
     --shadow: rgba(0, 0, 0, 0.346);
     --background: rgb(39, 39, 39);
     --grey: rgb(181, 181, 181);
@@ -52,9 +52,9 @@
         --grey: rgb(181, 181, 181);
         --white: white;
         --basecolor: rgb(255 255 255);
-}
+    }
 
-
+    
 /* =============================================== */
 *{
     padding                 : 0%;
@@ -72,6 +72,6 @@ button{
 }
 
 
-img{
-    filter: invert(360deg);
+.DarkTheme img , .greenery img{
+    filter: brightness(60%);
 }
