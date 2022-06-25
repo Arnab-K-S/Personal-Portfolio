@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Arnab-K-S/Personal-Portfolio.git/static/css/main.f0b14e18.css",
+    "main.js": "/Arnab-K-S/Personal-Portfolio.git/static/js/main.ddde1f75.js",
+    "static/media/frontpage.png": "/Arnab-K-S/Personal-Portfolio.git/static/media/frontpage.d122eac874deeb39a4d0.png",
+    "static/media/transparent.webp": "/Arnab-K-S/Personal-Portfolio.git/static/media/transparent.66df924a9aacb369d500.webp",
+    "static/media/webdesign.jpg": "/Arnab-K-S/Personal-Portfolio.git/static/media/webdesign.b35d7509330d2e888879.jpg",
+    "static/media/2.jpg": "/Arnab-K-S/Personal-Portfolio.git/static/media/2.d2488c64b2dafe0e427a.jpg",
+    "static/media/1.webp": "/Arnab-K-S/Personal-Portfolio.git/static/media/1.cc8d530de24e497dd92e.webp",
+    "index.html": "/Arnab-K-S/Personal-Portfolio.git/index.html",
+    "main.f0b14e18.css.map": "/Arnab-K-S/Personal-Portfolio.git/static/css/main.f0b14e18.css.map",
+    "main.ddde1f75.js.map": "/Arnab-K-S/Personal-Portfolio.git/static/js/main.ddde1f75.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0b14e18.css",
+    "static/js/main.ddde1f75.js"
+  ]
+}
