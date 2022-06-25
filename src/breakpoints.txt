@@ -1,0 +1,2 @@
+1000px : cards  & titlebox
+650px : navbar

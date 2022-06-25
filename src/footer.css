@@ -1,0 +1,23 @@
+footer
+{
+    background-color: var(--basecolor);
+    width:98%;
+    height:30vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1%;
+}
+
+h5
+{
+    font-family: sans-serif;
+    color: var(--text);
+}
+
+h6{
+    font-family: sans-serif;
+    color: var(--black);
+}
