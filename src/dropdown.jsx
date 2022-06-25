@@ -1,4 +1,3 @@
-import Wave from "./svgwave";
 const Dropdown=()=>{
     return(<>
     <div class="dropdown">

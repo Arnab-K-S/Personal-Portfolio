@@ -71,3 +71,7 @@ button{
     cursor: pointer;
 }
 
+
+img{
+    filter: invert(360deg);
+}

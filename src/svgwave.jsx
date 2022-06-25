@@ -1,6 +1,5 @@
-import { useState } from "react";
 const Wave=()=>{
-    let [colorvaribale, setColorvariable] = useState("#6f68ff");
+    let colorvaribale = "#6f68ff";
     return(
     <>
             <svg id="d1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
