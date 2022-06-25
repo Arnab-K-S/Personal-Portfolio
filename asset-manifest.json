@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Personal-Portfolio/static/css/main.b51da0ce.css",
-    "main.js": "/Personal-Portfolio/static/js/main.37bbd75d.js",
-    "static/media/frontpage.png": "/Personal-Portfolio/static/media/frontpage.d122eac874deeb39a4d0.png",
-    "static/media/transparent.webp": "/Personal-Portfolio/static/media/transparent.66df924a9aacb369d500.webp",
-    "static/media/webdesign.jpg": "/Personal-Portfolio/static/media/webdesign.b35d7509330d2e888879.jpg",
-    "static/media/2.jpg": "/Personal-Portfolio/static/media/2.d2488c64b2dafe0e427a.jpg",
-    "static/media/1.webp": "/Personal-Portfolio/static/media/1.cc8d530de24e497dd92e.webp",
-    "index.html": "/Personal-Portfolio/index.html",
-    "main.b51da0ce.css.map": "/Personal-Portfolio/static/css/main.b51da0ce.css.map",
-    "main.37bbd75d.js.map": "/Personal-Portfolio/static/js/main.37bbd75d.js.map"
+    "main.css": "/Arnab-K-S/Personal-Portfolio.git/static/css/main.95e7ccfb.css",
+    "main.js": "/Arnab-K-S/Personal-Portfolio.git/static/js/main.bf95d14b.js",
+    "static/media/frontpage.png": "/Arnab-K-S/Personal-Portfolio.git/static/media/frontpage.d122eac874deeb39a4d0.png",
+    "static/media/transparent.webp": "/Arnab-K-S/Personal-Portfolio.git/static/media/transparent.66df924a9aacb369d500.webp",
+    "static/media/webdesign.jpg": "/Arnab-K-S/Personal-Portfolio.git/static/media/webdesign.b35d7509330d2e888879.jpg",
+    "static/media/2.jpg": "/Arnab-K-S/Personal-Portfolio.git/static/media/2.d2488c64b2dafe0e427a.jpg",
+    "static/media/1.webp": "/Arnab-K-S/Personal-Portfolio.git/static/media/1.cc8d530de24e497dd92e.webp",
+    "index.html": "/Arnab-K-S/Personal-Portfolio.git/index.html",
+    "main.95e7ccfb.css.map": "/Arnab-K-S/Personal-Portfolio.git/static/css/main.95e7ccfb.css.map",
+    "main.bf95d14b.js.map": "/Arnab-K-S/Personal-Portfolio.git/static/js/main.bf95d14b.js.map"
   },
   "entrypoints": [
-    "static/css/main.b51da0ce.css",
-    "static/js/main.37bbd75d.js"
+    "static/css/main.95e7ccfb.css",
+    "static/js/main.bf95d14b.js"
   ]
 }
