@@ -1,5 +1,6 @@
 footer
 {
+    margin-top: auto;
     background-color: var(--basecolor);
     width:98%;
     height:30vh;

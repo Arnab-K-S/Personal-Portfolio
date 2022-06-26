@@ -1,14 +1,22 @@
-import React from "react"
-import Heading from './Components'
-import List from './List'
-
-function App() {
+import React, { StrictMode, useState } from "react"
+import Navbar from "./navbar"
+import Home from "./home"
+import Footer from "./Footer"
+import './index.css'
+import Feedback from "./feedback"
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+const App = () => {
     return (
-    <>
-    <Heading/>
-    <List/>
-    </>
-    );
+        <StrictMode>
+        <Router>
+            <Navbar />
+            <Routes>
+                <Route  path="/" element={<Home />}/>
+                <Route  path="/feedback" element={<Feedback/>} />
+            </Routes>
+            <Footer />
+        </Router>
+        </StrictMode>)
 }
 
 export default App;

@@ -40,8 +40,7 @@ nav {
     font-weight             :        100;
 }
 
-button,
-button:active {
+button,button:active {
     color                   :        var(--text);
     outline                 :        none;
     padding                 :        2%;
@@ -52,7 +51,7 @@ button:active {
     height                  :        10vh;
 }
 
-button {
+ul button {
     background-color        :        transparent;
     border-radius           :        1vh;
 }
@@ -83,42 +82,47 @@ ul button:active {
 
 @media only screen and (max-width:740px) {
     nav,ul{
-        flex-direction: column;
-        align-items : center;
-        font-size: small;
-        margin-left: 0%;
+        flex-direction      :        column;
+        align-items         :        center;
+        font-size           :        small;
+        margin-left         :        0%;
     }
-    #welcome{
-        font-size:50px;
+    #welcome{  
+        font-size           :        50px;
     }
 }
 
 /* =========Themes Dropdown Menu========== */
 
 #dropmenu{
-    display: none;
-    background-color: var(--background);
-    align-items: center;
-    justify-content: space-around;
-    padding: none;
-    transition: 1s ease-in-out;
-    position: absolute;
-    width:20vh;
+    display                 :       none;
+    background-color        :       var(--background);
+    align-items             :       center;
+    justify-content         :       space-around;
+    padding                 :       none;
+    transition              :       1s ease-in-out;
+    position                :       absolute;
+    width                   :       20vh;
 }
 
 #dropmenu:hover button:hover{
-    background-color: var(--black);
-    color: var(--white);
+    background-color        : var(--black);
+    color                   : var(--white);
 }
 #dropmenu button{
-margin: none;
-color: var(--black);
+    margin                  : none;
+    color                   : var(--black);
 }
 
 .dropbtn:hover #dropmenu{
-    display: none;
+    display                 : none;
 }
 
 #dropmenu button:active{
-    transform: none;
+    transform               : none;
+}
+
+.navigation{
+    text-decoration: none;
+    color: inherit;
 }

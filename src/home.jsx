@@ -1,6 +1,7 @@
 import Card from "./carduse"
 import Wave from "./svgwave"
 import './home.css'
+import { StrictMode } from "react";
 
 const para = `Personal Portfolio Website as well as my first reactjs project.
 This website contains an accumulation of all my projects and skills.
@@ -8,6 +9,7 @@ This website was made by me in my first year where i explored and gained a bit o
 function Home() {
   return (
     <>
+    <StrictMode>
       <Wave/>
       <section id='section1'>
         <div className="titlebox">
@@ -19,6 +21,8 @@ function Home() {
       </section>
       <div className="flexbox"><Card/></div>
         <img id='frontpage' src={require("./images/frontpage.png")} alt='.'/>
-    </>);
+      </StrictMode>
+    </>
+    );
 }
 export default Home;
