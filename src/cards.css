@@ -1,4 +1,7 @@
-img,
+.card img{
+    height: 15rem;
+    width: 15rem;
+}
 .cardbody   {       
     margin-top: 5%;
     margin-bottom: 5%;
@@ -14,9 +17,9 @@ img,
     align-items                 :    center;
     width                       :    20rem;
     border-radius               :    1vh;
+    font-size                   :    3vh;
     transition                  :    1s;
     background-color            :    var(--white);
-    font-size                   :    3vh;
     text-align                  :    center;
     justify-content             :    center;
 }       
@@ -24,6 +27,7 @@ img,
 .card:hover {       
     box-shadow                  :    0.3vh 0.3vh 0.3vh 0.3vh var(--shadow);
     transition                  :    1s ease-in-out;
+    transform                   :    scale(1.04);
 }
 
 .flexbox{

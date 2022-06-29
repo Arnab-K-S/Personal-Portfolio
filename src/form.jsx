@@ -41,13 +41,12 @@ const Form = () => {
         <>
             <div className="container">
                 <input id="name" value={name} placeholder="Enter you Name"  onChange={(getName) => setName(getName.target.value)} />
-                <input type="email" value={email} id="email" placeholder="Enter your email : someone@domain.com" onChange={(getEmail) => setEmail(getEmail.target.value)} />
+                <input type="email" value={email} id="email" placeholder="Enter your postion (eg: Student at NIT Silchar)" onChange={(getEmail) => setEmail(getEmail.target.value)} />
                 <textarea id="comment" value={comment} rows="4" cols="50" placeholder="Write a comment" onChange={(getComment) => setComment(getComment.target.value)} />
                 <button id="submit" onClick={send}>Submit</button>
                 <div className="commentContainer"></div>
             </div>
         </>
-
     )
 }
 

@@ -2,10 +2,10 @@ import './navbar.css'
 import Dropdown from './dropdown'
 import { Link} from "react-router-dom"
 const menu=[
-    {id:1 , name:"Home"         ,address:"/"},
-    {id:2 , name:"Project List" ,address:"/projects"},
-    {id:3,  name:"About Me"     ,address:"/me"},
-    {id:4,  name:"Feedback"     ,address:"/feedback"}
+    { id: 1, name: "Home", address:"Personal-Portfolio/"},
+    { id: 2, name: "Project List", address:"Personal-Portfolio/projects"},
+    { id: 3, name: "About Me", address:"Personal-Portfolio/me"},
+    { id: 4, name: "Feedback", address:"Personal-Portfolio/feedback"}
 ]
 
 
@@ -17,7 +17,7 @@ const Navbar =()=>{
             <ul>
                 {menu.map((options)=>(
                     <li id={options.id}>
-                        <button><Link to={options.address} className="navigation">{options.name}</Link></button>
+                        <Link to={options.address} className="navigation"> <button>{options.name}</button></Link>
                     </li>
                 ))}
                 <Dropdown/>

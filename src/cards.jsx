@@ -9,15 +9,14 @@ const Cards=(props)=>{
     <>
         <div className="card">
             <h1>{cardHeading}</h1>
-            <div className="cardbody">
             <img src={cardImg} alt='.'/>
+            <div className="cardbody">
+                
             {cardText}
             </div>
         </div>
     </>
     );
 }
-
-
 
 export default Cards

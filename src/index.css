@@ -8,6 +8,7 @@
     --grey                  :rgb(181, 181, 181);
     --white                 :white;
     --basecolor             :rgb(111, 104, 255);
+    --textbackground        :antiquewhite;
 }
 
 .default {
@@ -16,29 +17,30 @@
     --black: black;
     --shadow: rgba(0, 0, 0, 0.346);
     --background: rgb(236, 238, 255);
-    --grey: rgb(181, 181, 181);
+    --grey: rgb(226, 226, 226);
     --white: white;
     --basecolor: rgb(111, 104, 255);
 }
 
-.DarkTheme{
+.Ocean{
     --text          : rgb(255, 255, 255);
-    --Borders       : rgb(0 0 0);
-    --black         : rgb(158, 158, 158);
-    --shadow        : rgba(0, 0, 0, 0.346);
-    --background    : rgb(46 46 46);
-    --grey          : rgb(181, 181, 181);
-    --white         : black;
-    --basecolor     : rgb(67, 67, 67);
+    --Borders       : rgb(47, 26, 139);
+    --black         : rgb(255, 255, 255);
+    --shadow        : rgb(0, 191, 255);
+    --background    : rgb(20, 0, 122);
+    --grey          : rgb(0, 0, 0);
+    --white         : rgb(11, 0, 56);
+    --basecolor     : rgb(41, 49, 203);
+    background-image: linear-gradient(rgba(69, 69, 255, 0.48),rgba(56, 56, 255, 0.527)),url('images/Ocean.jpg');
 }
 
 .greenery{
-    --text: rgb(0, 0, 0);
+    --text: rgb(255, 255, 255);
     --Borders: rgb(255, 255, 255);
     --black: rgba(255, 255, 255, 0.796);
     --shadow: rgba(0, 0, 0, 0.346);
     --background: rgb(39, 39, 39);
-    --grey: rgb(181, 181, 181);
+    --grey: rgb(15, 66, 42);
     --white: rgb(70, 70, 70);
     --basecolor: rgb(0 153 30);
 }
@@ -55,6 +57,49 @@
     }
 
     
+   .redbase {
+       --text: rgb(255, 255, 255);
+       --Borders: rgb(255, 255, 255);
+       --black: white;
+       --shadow: rgba(0, 0, 0, 0.346);
+       --background: rgb(64, 64, 64);
+       --grey: rgb(56, 56, 56);
+       --white: #767676;
+       --basecolor: rgba(255, 0, 0, 0.626);
+   }
+
+   .redbaselight{
+        --text: rgb(255 255 255);
+        --Borders: rgb(255, 255, 255);
+        --black: black;
+        --shadow: rgba(0, 0, 0, 0.346);
+        --background: rgb(235 235 235);
+        --grey: rgb(213 213 213);
+        --white: #ffffff;
+        --basecolor: rgba(255, 0, 0, 0.626);
+    }
+
+    .DarkTheme{
+            --text:rgb(111, 104, 255);
+            --Borders: rgb(47, 26, 139);
+            --black: rgb(255, 255, 255);
+            --shadow: rgb(85, 0, 255);
+            --background: rgb(31, 31, 31);
+            --grey: rgb(36, 36, 36);
+            --white: rgb(23, 23, 23);
+            --basecolor: rgb(0, 0, 0);
+    }
+    
+    .neongreen{
+            --text: rgb(125, 214, 106);
+            --Borders: rgb(47, 26, 139);
+            --black: rgb(255, 255, 255);
+            --shadow: rgb(0, 255, 128);
+            --background: rgb(31, 31, 31);
+            --grey: rgb(36, 36, 36);
+            --white: rgb(23, 23, 23);
+            --basecolor: rgb(0, 0, 0);
+    }
 /* =============================================== */
 *{
     padding                 : 0%;
@@ -65,6 +110,9 @@
 body{
     overflow-x              : hidden;
     background-color        : var(--background);
+    background-position     : center;
+    background-attachment   : fixed;
+    background-size         : cover;
 }
 
 button{

@@ -13,7 +13,7 @@ function Home() {
       <Wave/>
       <section id='section1'>
         <div className="titlebox">
-          <h1 id="intro">Welcome to my Webstie | Arnab</h1>
+          <h1 id="intro">Welcome to my Website | Arnab</h1>
           <p>{para}</p>
           <button id="resume">Download Resume</button>
         </div>
