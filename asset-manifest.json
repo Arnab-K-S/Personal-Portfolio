@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Personal-Portfolio-Reactjs/static/css/main.4d0f2f25.css",
+    "main.css": "/Personal-Portfolio-Reactjs/static/css/main.36b7aabc.css",
     "main.js": "/Personal-Portfolio-Reactjs/static/js/main.4d23dbf2.js",
     "static/media/CodingWebsite.png": "/Personal-Portfolio-Reactjs/static/media/CodingWebsite.049b1974a4894062a7a3.png",
     "static/media/DeeporBill.png": "/Personal-Portfolio-Reactjs/static/media/DeeporBill.45e5f7d07eb55dd213b2.png",
@@ -18,11 +18,11 @@
     "static/media/1.webp": "/Personal-Portfolio-Reactjs/static/media/1.cc8d530de24e497dd92e.webp",
     "static/media/github.webp": "/Personal-Portfolio-Reactjs/static/media/github.28e781a17383fb1f73cd.webp",
     "index.html": "/Personal-Portfolio-Reactjs/index.html",
-    "main.4d0f2f25.css.map": "/Personal-Portfolio-Reactjs/static/css/main.4d0f2f25.css.map",
+    "main.36b7aabc.css.map": "/Personal-Portfolio-Reactjs/static/css/main.36b7aabc.css.map",
     "main.4d23dbf2.js.map": "/Personal-Portfolio-Reactjs/static/js/main.4d23dbf2.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d0f2f25.css",
+    "static/css/main.36b7aabc.css",
     "static/js/main.4d23dbf2.js"
   ]
 }
