@@ -106,3 +106,14 @@
             font-size: 3vw;
         }
 }
+@media only screen and (max-width:1148px) {
+  .grid-3{
+    grid-template-columns: auto auto;
+  }
+}
+@media only screen and (max-width:765px) {
+  .grid-3{
+    grid-template-columns: auto;
+  }
+}
+

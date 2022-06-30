@@ -1,20 +1,40 @@
+
 const infoCards = (props) => {
     let cardHeading = props.cardHeading;
-    let cardImg = './images/project.png';
     let cardText = props.cardText;
+    let cardImg = props.cardImg;  
     let link = props.href
+    let TeamMembers=props.team
     return (
         <>
             <div className="card">
                 <h1>{cardHeading}</h1>
-                    <img src={require('./images/project.png')} alt='.' />
+                <div className="projectimages">
+                <img src={cardImg} alt='.' />
+                </div>
                 <div className="description">
                     {cardText}
                 </div>
-                    <button> <a href={link}>Github Repo</a></button>
+                    <div className='members'>
+                {
+                        TeamMembers.map((mem) => (
+                                <div className='membernames'>{mem}</div>
+                        ))
+                }
+                 </div>
+                    <button> <a href={link[0]}>Live Url</a></button>
+                    <button> <a href={link[1]}>Github Repo</a></button>
             </div>
         </>
     );
+    
 }
-
+    infoCards.defaultProps = {
+        cardHeading : 'NAME OF THE PROJECT',
+        cardImg : require('./images/project.png'),
+        cardText : 'DESCRIPTION UNAVAILABLE',
+        href : [],
+        team:[]
+    }
+    
 export default infoCards

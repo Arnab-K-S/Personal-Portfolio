@@ -30,17 +30,61 @@ a{
 }
 
 .grid-3 img{
-    width: 10rem;
-    height: 10rem;
+    width: auto;
+    max-width: inherit;
+    height: 11rem;
 }
+
+.projectimages img {
+    margin-top: 3%;
+}
+
+.projectimages {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.members {
+    display: flex;
+    flex-direction: row;
+    overflow-y: auto;
+    height: fit-content;
+}
+
+.members .membernames {
+    background-color: var(--text);
+    padding-inline: 2%;
+    margin: 1%;
+    color: var(--basecolor);
+    font-family: sans-serif;
+    text-align: center;
+    border: 0.1rem solid var(--basecolor);
+    border-radius: 25rem;
+    height: 1rem;
+    width: auto;
+    white-space: nowrap;
+}
+::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 0.5rem;
+}
+::-webkit-scrollbar-track {
+    background: var(--basecolor);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--shadow);
+}
+
 .description{
     height: 40vh;
-    /* overflow-y: scroll; */
+    overflow-y: auto;
     /* background-color: var(--textbackground); */
     color: var(--black);
 }
 
 .grid-3 button{
+    margin: 5%;
     border-radius: 25vh;
     color: var(--white);
     box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem var(--shadow);

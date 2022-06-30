@@ -3,10 +3,11 @@
     width: 15rem;
 }
 .cardbody   {       
-    margin-top: 5%;
-    margin-bottom: 5%;
-    width                       :   inherit;
-    height                      :   inherit;
+    margin-top                  : 5%;
+    margin-bottom               : 5%;
+    width                       : inherit;
+    height                      : inherit;
+    font-family                 : 'Mukta', sans-serif;
 }       
 
 .card {     
@@ -45,9 +46,7 @@
     padding                     : 1%;
 }
 
-.cardbody{
-    font-family: 'Mukta',sans-serif;
-}
+
 
 @media only screen and (max-width:1000px) {
     .flexbox {
