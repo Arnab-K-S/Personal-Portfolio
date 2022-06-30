@@ -1,18 +1,28 @@
 {
   "files": {
-    "main.css": "/Personal-Portfolio/static/css/main.8e0ecd69.css",
-    "main.js": "/Personal-Portfolio/static/js/main.85733249.js",
+    "main.css": "/Personal-Portfolio/static/css/main.489b256e.css",
+    "main.js": "/Personal-Portfolio/static/js/main.55f1e4ba.js",
+    "static/media/CodingWebsite.png": "/Personal-Portfolio/static/media/CodingWebsite.049b1974a4894062a7a3.png",
+    "static/media/DeeporBill.png": "/Personal-Portfolio/static/media/DeeporBill.45e5f7d07eb55dd213b2.png",
+    "static/media/E-Library.png": "/Personal-Portfolio/static/media/E-Library.5c51b3aee75ef5585dbc.png",
+    "static/media/Marvel.png": "/Personal-Portfolio/static/media/Marvel.4ba66b77f88d2e3ba5f8.png",
+    "static/media/ChatApp.png": "/Personal-Portfolio/static/media/ChatApp.980df5f4f592e2b0c327.png",
+    "static/media/Personal Portfolio.png": "/Personal-Portfolio/static/media/Personal Portfolio.6e5c35d24e0c0b628864.png",
     "static/media/frontpage.png": "/Personal-Portfolio/static/media/frontpage.d122eac874deeb39a4d0.png",
     "static/media/transparent.webp": "/Personal-Portfolio/static/media/transparent.66df924a9aacb369d500.webp",
+    "static/media/ChatApp2.png": "/Personal-Portfolio/static/media/ChatApp2.c9ab397dedda549baea4.png",
     "static/media/webdesign.jpg": "/Personal-Portfolio/static/media/webdesign.b35d7509330d2e888879.jpg",
+    "static/media/project.png": "/Personal-Portfolio/static/media/project.9926afda780608f91457.png",
     "static/media/2.jpg": "/Personal-Portfolio/static/media/2.d2488c64b2dafe0e427a.jpg",
+    "static/media/Ocean.jpg": "/Personal-Portfolio/static/media/Ocean.bff1ca64d72a81dac942.jpg",
     "static/media/1.webp": "/Personal-Portfolio/static/media/1.cc8d530de24e497dd92e.webp",
+    "static/media/github.webp": "/Personal-Portfolio/static/media/github.28e781a17383fb1f73cd.webp",
     "index.html": "/Personal-Portfolio/index.html",
-    "main.8e0ecd69.css.map": "/Personal-Portfolio/static/css/main.8e0ecd69.css.map",
-    "main.85733249.js.map": "/Personal-Portfolio/static/js/main.85733249.js.map"
+    "main.489b256e.css.map": "/Personal-Portfolio/static/css/main.489b256e.css.map",
+    "main.55f1e4ba.js.map": "/Personal-Portfolio/static/js/main.55f1e4ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e0ecd69.css",
-    "static/js/main.85733249.js"
+    "static/css/main.489b256e.css",
+    "static/js/main.55f1e4ba.js"
   ]
 }
