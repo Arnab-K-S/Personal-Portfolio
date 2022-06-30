@@ -71,15 +71,22 @@ li button:active::before {
 ul button:active,
 ul button:hover {
     background-size         :        100%;
-    color                   :        var(--black);
-    background-color        :        var(--white);
+    color                   :        var(--basecolor);
+    background-color        :        var(--text);
     transition              :        1s linear;
+    box-shadow              :        0vh 0vh 2vh 1vh var(--glow);
 }
 
 ul button:active {
     transform               :        translateY(-1rem);
 }
 
+#dropmenu2{
+    position: absolute;
+    right: 20vh;
+    top:50vh;
+    background-color: var(--background);
+}
 
 /*=================== NAVBAR===================== */
 

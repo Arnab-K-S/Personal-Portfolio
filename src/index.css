@@ -20,6 +20,7 @@
     --grey: rgb(226, 226, 226);
     --white: white;
     --basecolor: rgb(111, 104, 255);
+    --glow:transparent;
 }
 
 .Ocean{
@@ -31,6 +32,7 @@
     --grey          : rgb(0, 0, 0);
     --white         : rgb(11, 0, 56);
     --basecolor     : rgb(41, 49, 203);
+    --glow: transparent;
     background-image: linear-gradient(rgba(69, 69, 255, 0.48),rgba(56, 56, 255, 0.527)),url('images/Ocean.jpg');
 }
 
@@ -43,6 +45,7 @@
     --grey: rgb(15, 66, 42);
     --white: rgb(70, 70, 70);
     --basecolor: rgb(0 153 30);
+    --glow: transparent;
 }
 
 .purewhite{
@@ -54,6 +57,7 @@
         --grey: rgb(181, 181, 181);
         --white: white;
         --basecolor: rgb(255 255 255);
+        --glow: transparent;
     }
 
     
@@ -66,6 +70,7 @@
        --grey: rgb(56, 56, 56);
        --white: #767676;
        --basecolor: rgba(255, 0, 0, 0.626);
+    --glow: transparent;
    }
 
    .redbaselight{
@@ -77,6 +82,7 @@
         --grey: rgb(213 213 213);
         --white: #ffffff;
         --basecolor: rgba(255, 0, 0, 0.626);
+        --glow: transparent;
     }
 
     .DarkTheme{
@@ -88,6 +94,7 @@
             --grey: rgb(36, 36, 36);
             --white: rgb(23, 23, 23);
             --basecolor: rgb(0, 0, 0);
+            --glow: rgb(111, 104, 255);
     }
     
     .neongreen{
@@ -99,6 +106,7 @@
             --grey: rgb(36, 36, 36);
             --white: rgb(23, 23, 23);
             --basecolor: rgb(0, 0, 0);
+            --glow:rgb(125, 214, 106)
     }
 /* =============================================== */
 *{

@@ -3,6 +3,7 @@ import Navbar from "./navbar"
 import Home from "./home"
 import Footer from "./Footer"
 import './index.css'
+import './android.css'
 import Feedback from "./feedback"
 import Projects from "./Projectlist"
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
