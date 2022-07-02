@@ -60,7 +60,7 @@ a{
     text-align: center;
     border: 0.1rem solid var(--basecolor);
     border-radius: 25rem;
-    height: 1rem;
+    height: min-content;
     width: auto;
     white-space: nowrap;
 }

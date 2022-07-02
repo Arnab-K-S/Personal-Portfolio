@@ -15,6 +15,8 @@ ul {
     background-color        :        transparent;
     align-items             :        flex-start;
     justify-content         :        space-around;
+    position                :        absolute;
+    right                   :        -10%;
 }
 
 nav {
@@ -43,12 +45,15 @@ nav {
 button,button:active {
     color                   :        var(--text);
     outline                 :        none;
-    padding                 :        2%;
+    padding                 :        2vh;
     font-size               :        3vh;
     font-family             :        'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width                   :        20vh;
     border                  :        none;
     height                  :        10vh;
+}
+.navigation button{
+    position: absolute;
 }
 
 ul button {
@@ -100,6 +105,14 @@ ul button:active {
     #welcome{  
         font-size           :        50px;
     }
+
+    .underline{
+        display: none;
+    }
+    
+    .navigation button ,ul{
+        position: unset;
+    }
 }
 
 /* =========Themes Dropdown Menu========== */
@@ -136,4 +149,29 @@ ul button:active {
 .navigation{
     text-decoration         : none;
     color                   : inherit;
+}
+
+.active button{
+        background-size: 100%;
+        color: var(--basecolor);
+        background-color: var(--text);
+        transition: 1s linear;    
+}
+
+.underline{
+        top: 13vh;
+        position: relative;
+        content: '';
+        width: 25vh;
+        height: 0.3rem;
+        background-color: var(--text);
+        transition: 1s;
+        /* transform: translateX(15vh); */
+}
+.aul2,.aul{
+    display: none;
+}
+
+.menu{
+    display: none;
 }

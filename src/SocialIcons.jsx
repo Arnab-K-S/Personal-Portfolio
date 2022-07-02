@@ -2,7 +2,8 @@ const socialIcons=()=>{
     return(
         <>
                 <a href="https://github.com/Arnab-K-S">
-                  <img src={require('./social/github.webp')}/>
+                  <h1>Hello</h1>
+                  <img src={require('./svg/github.svg')}/>
                 </a>
             </>
     )

@@ -1,20 +1,29 @@
 {
   "files": {
-    "main.css": "/Personal-Portfolio/static/css/main.ace073b0.css",
-    "main.js": "/Personal-Portfolio/static/js/main.06fb6e7c.js",
-    "static/media/frontpage.png": "/Personal-Portfolio/static/media/frontpage.d122eac874deeb39a4d0.png",
-    "static/media/transparent.webp": "/Personal-Portfolio/static/media/transparent.66df924a9aacb369d500.webp",
-    "static/media/webdesign.jpg": "/Personal-Portfolio/static/media/webdesign.b35d7509330d2e888879.jpg",
-    "static/media/project.png": "/Personal-Portfolio/static/media/project.9926afda780608f91457.png",
-    "static/media/2.jpg": "/Personal-Portfolio/static/media/2.d2488c64b2dafe0e427a.jpg",
-    "static/media/Ocean.jpg": "/Personal-Portfolio/static/media/Ocean.bff1ca64d72a81dac942.jpg",
-    "static/media/1.webp": "/Personal-Portfolio/static/media/1.cc8d530de24e497dd92e.webp",
-    "index.html": "/Personal-Portfolio/index.html",
-    "main.ace073b0.css.map": "/Personal-Portfolio/static/css/main.ace073b0.css.map",
-    "main.06fb6e7c.js.map": "/Personal-Portfolio/static/js/main.06fb6e7c.js.map"
+    "main.css": "/Personal-Portfolio-Reactjs/static/css/main.44a1b4ed.css",
+    "main.js": "/Personal-Portfolio-Reactjs/static/js/main.218fecad.js",
+    "static/media/CodingWebsite.png": "/Personal-Portfolio-Reactjs/static/media/CodingWebsite.049b1974a4894062a7a3.png",
+    "static/media/DeeporBill.png": "/Personal-Portfolio-Reactjs/static/media/DeeporBill.45e5f7d07eb55dd213b2.png",
+    "static/media/E-Library.png": "/Personal-Portfolio-Reactjs/static/media/E-Library.5c51b3aee75ef5585dbc.png",
+    "static/media/Marvel.png": "/Personal-Portfolio-Reactjs/static/media/Marvel.4ba66b77f88d2e3ba5f8.png",
+    "static/media/ChatApp.png": "/Personal-Portfolio-Reactjs/static/media/ChatApp.980df5f4f592e2b0c327.png",
+    "static/media/Personal Portfolio.png": "/Personal-Portfolio-Reactjs/static/media/Personal Portfolio.6e5c35d24e0c0b628864.png",
+    "static/media/frontpage.png": "/Personal-Portfolio-Reactjs/static/media/frontpage.d122eac874deeb39a4d0.png",
+    "static/media/transparent.webp": "/Personal-Portfolio-Reactjs/static/media/transparent.66df924a9aacb369d500.webp",
+    "static/media/ChatApp2.png": "/Personal-Portfolio-Reactjs/static/media/ChatApp2.c9ab397dedda549baea4.png",
+    "static/media/webdesign.jpg": "/Personal-Portfolio-Reactjs/static/media/webdesign.b35d7509330d2e888879.jpg",
+    "static/media/project.png": "/Personal-Portfolio-Reactjs/static/media/project.9926afda780608f91457.png",
+    "static/media/2.jpg": "/Personal-Portfolio-Reactjs/static/media/2.d2488c64b2dafe0e427a.jpg",
+    "static/media/Ocean.jpg": "/Personal-Portfolio-Reactjs/static/media/Ocean.bff1ca64d72a81dac942.jpg",
+    "static/media/1.webp": "/Personal-Portfolio-Reactjs/static/media/1.cc8d530de24e497dd92e.webp",
+    "static/media/me.png": "/Personal-Portfolio-Reactjs/static/media/me.57b4e4a6eb6aefcd30eb.png",
+    "index.html": "/Personal-Portfolio-Reactjs/index.html",
+    "static/media/fb.svg": "/Personal-Portfolio-Reactjs/static/media/fb.8be364afe13bd6ce9bf77aa6bbda0c0d.svg",
+    "main.44a1b4ed.css.map": "/Personal-Portfolio-Reactjs/static/css/main.44a1b4ed.css.map",
+    "main.218fecad.js.map": "/Personal-Portfolio-Reactjs/static/js/main.218fecad.js.map"
   },
   "entrypoints": [
-    "static/css/main.ace073b0.css",
-    "static/js/main.06fb6e7c.js"
+    "static/css/main.44a1b4ed.css",
+    "static/js/main.218fecad.js"
   ]
 }

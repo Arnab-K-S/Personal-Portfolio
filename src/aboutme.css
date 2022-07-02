@@ -1,0 +1,84 @@
+.outbar{
+    width: 50vw;
+    height: 2vh;
+    margin: 2%;
+    overflow: hidden;
+    /* background-color: var(--white); */
+    /* border: 0. solid var(--graph); */
+    
+ 
+}
+.skillbox:hover{
+    transform: scale(1.2);
+    margin-left: 1.4%;
+}
+.skillbox:hover .outbar{
+    box-shadow: 0.5vh 0.5vh 0.5vh 0 var(--shadow);
+}
+
+.innerbar{
+    height: inherit;
+    background-color: var(--graph);
+    animation-name: load;
+    animation-duration: 1s;
+}
+.languages{
+        color: var(--black);
+        width: 20vh;
+        text-align: start;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+        font-weight: 800;
+        padding: 1%;
+        max-width: 50%;
+        align-items: center;
+}
+.percentage{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: var(--graph);
+}
+
+.skillbox{
+    display: flex;
+    align-items: center ;
+}
+
+.skillgrid{
+    margin: 5%;
+    width: 70%;
+}
+
+#profilepic{
+    margin-left: auto;
+    margin-right: 10vh;
+    width: 40%;
+}
+
+.skillboxparent{
+   display: grid;
+   grid-template-columns: 60% 40%;
+   align-items: center;
+}
+
+.bold{
+    font-weight: bolder;
+    color: var(--shadow);
+}
+
+p{
+    color: var(--black);
+}
+.about{
+    padding: 1%;
+    text-align: left;
+}
+@keyframes  load {
+    0%{
+        transform: translateX(-100vh);
+    }
+    100%{
+
+    }
+    
+}

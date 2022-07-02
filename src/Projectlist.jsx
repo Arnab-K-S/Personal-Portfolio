@@ -52,7 +52,7 @@ const projects = [
         'img': require('./projects/Personal Portfolio.png'),
         'url': 'https://arnab-k-s.github.io/Personal-Portfolio-Reactjs/',
         'repo': 'https://github.com/Arnab-K-S/Personal-Portfolio-Reactjs.git',
-        'description': `This is the website which you are currently browsing. Brought together all my projects skill and other professional information to give a bird'eye view.A sneek peek about my knowlege and creativity.This is my first project on Reactjs and made my fundamentals really sharp.`
+        'description': `This is the website which you are currently browsing. Brought together all my projects skill and other professional information to give a bird'eye view.A sneak peek about my knowledge and creativity.This is my first project on Reactjs and made my fundamentals really sharp.`
     },
 
     // {
@@ -71,7 +71,7 @@ const projects = [
         'members': ['Aryadeep Gogoi', 'Mritunjoy Chinte', 'Vishnu Padmakumar'],
         'url': 'https://coding-noobs-nits.github.io/DeeporBill/Home.html',
         'repo': 'https://github.com/CODING-NOOBS-NITS/DeeporBill',
-        "description": ``
+        "description": `Moving forward on the journey of web development and welcoming a new member Aryadeep Gogoi to our team whose fasinating design skills along with our experience clubbed together to make a new project on Deepor Bill.The first team project after learning HTML CSS and JavaScript at an Intermediate level.`
     },
 
     {

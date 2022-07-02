@@ -18,7 +18,7 @@ const Dropdown=()=>{
         <div class="dropdown" onMouseLeave={() => hide()}>
                 <button id="themes"
                  onMouseEnter={()=>show()} 
-                 class="dropbtn">Themes</button>
+                 class="dropbtn">Themes ▼</button>
         <div id="dropmenu" style={{ "display": dp }} >
                 <button onClick={newTheme} id="default">Default</button>
                 <button onClick={newTheme} id="DarkTheme">Dark</button>

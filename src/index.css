@@ -9,6 +9,7 @@
     --white                 :white;
     --basecolor             :rgb(111, 104, 255);
     --textbackground        :antiquewhite;
+    --graph                 :rgb(111, 104, 255);
 }
 
 .default {
@@ -21,6 +22,7 @@
     --white: white;
     --basecolor: rgb(111, 104, 255);
     --glow:transparent;
+    --graph: rgb(111, 104, 255);
 }
 
 .Ocean{
@@ -32,11 +34,13 @@
     --grey          : rgb(0, 0, 0);
     --white         : rgb(11, 0, 56);
     --basecolor     : rgb(41, 49, 203);
-    --glow: transparent;
+    --glow          : transparent;
+    --graph         :rgb(0, 238, 255);
     background-image: linear-gradient(rgba(69, 69, 255, 0.48),rgba(56, 56, 255, 0.527)),url('images/Ocean.jpg');
 }
 
 .greenery{
+    --graph         :rgb(0, 83, 39);
     --text: rgb(255, 255, 255);
     --Borders: rgb(255, 255, 255);
     --black: rgba(255, 255, 255, 0.796);
@@ -49,8 +53,9 @@
 }
 
 .purewhite{
-        --text: rgb(0 0 0);
-        --Borders: rgb(255 255 255);
+    --graph         :rgb(0, 0, 0);
+    --text: rgb(0 0 0);
+    --Borders: rgb(255 255 255);
         --black: black;
         --shadow: rgba(0, 0, 0, 0.346);
         --background: rgb(240 240 240);
@@ -59,9 +64,10 @@
         --basecolor: rgb(255 255 255);
         --glow: transparent;
     }
-
     
-   .redbase {
+    
+    .redbase {
+       --graph         :rgb(152, 0, 0);
        --text: rgb(255, 255, 255);
        --Borders: rgb(255, 255, 255);
        --black: white;
@@ -69,11 +75,12 @@
        --background: rgb(64, 64, 64);
        --grey: rgb(56, 56, 56);
        --white: #767676;
-       --basecolor: rgba(255, 0, 0, 0.626);
-    --glow: transparent;
-   }
-
-   .redbaselight{
+       --basecolor: rgb(166, 0, 0);
+       --glow: transparent;
+    }
+    
+    .redbaselight{
+        --graph         :rgba(255, 0, 0, 0.626);
         --text: rgb(255 255 255);
         --Borders: rgb(255, 255, 255);
         --black: black;
@@ -95,6 +102,7 @@
             --white: rgb(23, 23, 23);
             --basecolor: rgb(0, 0, 0);
             --glow: rgb(111, 104, 255);
+            --graph:rgb(111, 104, 255);
     }
     
     .neongreen{
@@ -106,7 +114,8 @@
             --grey: rgb(36, 36, 36);
             --white: rgb(23, 23, 23);
             --basecolor: rgb(0, 0, 0);
-            --glow:rgb(125, 214, 106)
+            --glow:rgb(125, 214, 106);
+            --graph:rgb(125, 214, 106);
     }
 /* =============================================== */
 *{
