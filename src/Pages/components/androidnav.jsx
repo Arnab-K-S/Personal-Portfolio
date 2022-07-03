@@ -1,4 +1,4 @@
-import './navbar.css'
+import '../css/index.css'
 import ADropdown from './AndroidDropdown'
 import { NavLink } from "react-router-dom"
 import { useState } from 'react'

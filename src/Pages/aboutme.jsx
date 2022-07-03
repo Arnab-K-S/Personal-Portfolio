@@ -1,5 +1,5 @@
-import Skills, {basicKnowledge} from "./skills";
-import Cards from "./cards"
+import Skills, {BasicKnowledge} from "./components/skills";
+import Cards from "./components/cards"
 
 const AboutMe=()=>{
     const date= new Date();
@@ -7,7 +7,7 @@ const AboutMe=()=>{
         <>
         <div className="skillboxparent">
         <Skills/>
-            <Cards cardHeading="About Me" cardImg={require('../src/Users/me.png')} 
+            <Cards cardHeading="About Me" cardImg={require('./Users/me.png')} 
             cardText={
                 <div className="about">
 
@@ -18,7 +18,7 @@ const AboutMe=()=>{
                 </p>
                 </div>}/>
         </div>  
-        <basicKnowledge/>
+        <BasicKnowledge/>
         </>
     )
 }

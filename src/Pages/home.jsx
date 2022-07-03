@@ -1,6 +1,6 @@
-import Card from "./carduse"
-import Wave from "./svgwave"
-import './home.css'
+import Card from "./components/carduse"
+import Wave from "./components/svgwave"
+import './css/home.css'
 import { StrictMode } from "react";
 
 const para = `Personal Portfolio Website as well as my first reactjs project.

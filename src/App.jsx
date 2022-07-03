@@ -1,15 +1,14 @@
 import React, { StrictMode} from "react"
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import Home from "./Pages/home"
+import Navbar from "./Pages/navbar"
+import Projects from "./Pages/Projectlist"
+import AboutMe from './Pages/aboutme'
+import Feedback from "./Pages/feedback"
+import Footer from "./Pages/Footer"
 
-import Home from "./home"
-import Navbar from "./navbar"
-import Projects from "./Projectlist"
-import AboutMe from './aboutme'
-import Feedback from "./feedback"
-import Footer from "./Footer"
-
-import './index.css'
-import './android.css'
+import '../src/Pages/css/index.css'
+import '../src/Pages/components/css/android.css'
 
 const App = () => {
     return (

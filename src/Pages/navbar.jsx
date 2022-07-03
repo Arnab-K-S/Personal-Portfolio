@@ -1,8 +1,8 @@
-import './navbar.css'
-import Dropdown from './dropdown'
-import { NavLink} from "react-router-dom"
 import { useState } from 'react'
-import ANavbar from './androidnav'
+import { NavLink} from "react-router-dom"
+import './css/navbar.css'
+import Dropdown from './components/dropdown'
+import ANavbar from './components/androidnav'
 const menu=[
     { id: 1, name: "Home", address:"Personal-Portfolio-Reactjs/",'pos':'101.5vh'},
     { id: 2, name: "Project List", address:"Personal-Portfolio-Reactjs/projects",'pos':'81vh'},

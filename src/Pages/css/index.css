@@ -140,3 +140,7 @@ button{
 .DarkTheme img , .greenery img{
     filter: brightness(60%);
 }
+
+.purewhite footer img{
+    filter: invert();
+}

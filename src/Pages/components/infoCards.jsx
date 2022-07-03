@@ -31,7 +31,7 @@ const infoCards = (props) => {
 }
     infoCards.defaultProps = {
         cardHeading : 'NAME OF THE PROJECT',
-        cardImg : require('./images/project.png'),
+        cardImg : require('../images/project.png'),
         cardText : 'DESCRIPTION UNAVAILABLE',
         href : [],
         team:[]

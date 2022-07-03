@@ -1,4 +1,4 @@
-import './aboutme.css'
+import '../css/aboutme.css'
 const skills = [
     { 'language': 'HTML', 'percentage': '80%' },
     { 'language': 'OOPs', 'percentage': '80%' },
@@ -39,7 +39,7 @@ const Skills = () => {
 
 const basic=[
     "Android Development","Cloud Computing","NodeJs","PhP","MySQL","Django","Flask","Bash Scripting","Dart"]
-const basicKnowledge=()=>{
+const BasicKnowledge=()=>{
     return(
         <>
                 <h1 className="header">Basic Knowledge</h1>
@@ -57,4 +57,4 @@ const basicKnowledge=()=>{
     )
 }
 export default Skills
-export {basicKnowledge}
+export {BasicKnowledge}

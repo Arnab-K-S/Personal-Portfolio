@@ -1,6 +1,6 @@
-import './feedback.css'
-import Form from './form'
-// import CommentBox from './commentbox'
+import './css/feedback.css'
+import Form from './components/form'
+// import CommentBox from './components/commentbox'
 const Feedback=()=>{
     return (
         <>  

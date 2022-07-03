@@ -1,5 +1,5 @@
-import './project.css'
-import InfoCards from "./infoCards"
+import './css/project.css'
+import InfoCards from "./components/infoCards"
 const projects = [
     {
         "slno": '1',

@@ -255,8 +255,14 @@
         top: 0%;
         left: 0%;
     }
+    
+    .icons{
+        margin-top: 25%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
-
 @media only screen and (max-width:450px) {
     input,textarea {
             font-size: 3vw;
