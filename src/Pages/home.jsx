@@ -20,7 +20,14 @@ function Home() {
         <img id='webdesign' src={require("./images/webdesign.jpg")} alt='.'/>
       </section>
       <div className="flexbox"><Card/></div>
-        <img id='frontpage' src={require("./images/frontpage.png")} alt='.'/>
+        {/* <img id='frontpage' src={require("./images/frontpage.png")} alt='.'/> */}
+        <div id="frontpage">
+        <img id="c4" class="cascade c3 cleft" src={require("./images/cascade/w4.jpg")} alt='.'/>
+        <img id="c2" class="cascade c2 cleft" src={require("./images/cascade/w1.jpg")} alt='.'/>
+        <img id="c1" class="cascade c1" src={require("./images/cascade/w2.jpg")} alt='.'/>
+        <img id="c3" class="cascade c2 cright" src={require("./images/cascade/w3.jpg")} alt='.'/>
+        <img id="c5" class="cascade c3 cright" src={require("./images/cascade/w5.jpg")} alt='.'/>
+        </div>
       </StrictMode>
     </>
     );

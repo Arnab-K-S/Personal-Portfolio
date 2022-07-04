@@ -17,6 +17,7 @@
     --Borders: rgb(255, 255, 255);
     --black: black;
     --shadow: rgba(0, 0, 0, 0.346);
+    /* --shadow: antiquewhite; */
     --background: rgb(236, 238, 255);
     --grey: rgb(226, 226, 226);
     --white: white;
@@ -36,6 +37,7 @@
     --basecolor     : rgb(41, 49, 203);
     --glow          : transparent;
     --graph         :rgb(0, 238, 255);
+    cursor: none;
     background-image: linear-gradient(rgba(69, 69, 255, 0.48),rgba(56, 56, 255, 0.527)),url('images/Ocean.jpg');
 }
 
@@ -103,6 +105,7 @@
             --basecolor: rgb(0, 0, 0);
             --glow: rgb(111, 104, 255);
             --graph:rgb(111, 104, 255);
+            cursor: none;
     }
     
     .neongreen{
@@ -116,6 +119,7 @@
             --basecolor: rgb(0, 0, 0);
             --glow:rgb(125, 214, 106);
             --graph:rgb(125, 214, 106);
+            cursor: none;
     }
 /* =============================================== */
 *{
@@ -134,11 +138,6 @@ body{
 
 button{
     cursor: pointer;
-}
-
-
-.DarkTheme img , .greenery img{
-    filter: brightness(60%);
 }
 
 .purewhite footer img{

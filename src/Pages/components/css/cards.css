@@ -12,6 +12,7 @@
 
 .card {     
     margin-top                  :    5%;
+    margin-bottom               :    5%;
     margin-inline               :    2%;
     color                       :    var(--black);
     padding                     :    2%;

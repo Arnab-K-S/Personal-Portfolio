@@ -1,4 +1,5 @@
 import '../css/aboutme.css'
+import '../css/project.css'
 const skills = [
     { 'language': 'HTML', 'percentage': '80%' },
     { 'language': 'OOPs', 'percentage': '80%' },
@@ -43,16 +44,16 @@ const BasicKnowledge=()=>{
     return(
         <>
                 <h1 className="header">Basic Knowledge</h1>
+                <div className="grid-3">
                 {basic.map(
                     (s) => (
                         <>
-                            <div className="skillbox">
-                                <h1 className='languages'>{s}</h1>
-                            </div>
+                                <span className='basiclanguages'>{s}</span>
                         </>
                     )
-                )
+                    )
                 }
+                </div>
         </>
     )
 }

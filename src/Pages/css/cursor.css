@@ -1,0 +1,22 @@
+.DarkTheme .cursor,.neongreen .cursor,.Ocean .cursor{
+    /* mix-blend-mode: multiply; */
+    position: absolute;
+    width: 0.5rem;
+    height: 0.5rem;
+    padding: 1%;
+    transform: scale(1.2);
+    box-shadow: 0rem 0rem 5rem 1rem  var(--shadow),0rem 0rem 5rem 1rem var(--shadow);
+    background-color: var(--shadow);
+    border-radius: 100rem;
+    /* background-image: url("images/Cursor.png"); */
+    background-size:contain;
+    transition: none;
+    transform: translateX(-1rem) translateY(-1rem);
+    z-index: 10;
+    background-repeat: no-repeat;
+    pointer-events: none;
+}
+
+button:hover .cursor{
+    display: none;
+}

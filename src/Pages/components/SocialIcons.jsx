@@ -12,7 +12,7 @@ const SocialIcons=()=>{
                   <img src='svg/instagram.svg' alt='instagram' width={'60rem'} height={'60rem'}/>
                 </a>
                 <a href="https://github.com/Arnab-K-S">
-                  <img src='svg/linkedin.svg' alt='linkedin' width={'60rem'} height={'60rem'}/>
+                  <img id="linkedin" src='svg/linkedin.svg' alt='linkedin' width={'60rem'} height={'60rem'}/>
                 </a>
         </div>
             </>
