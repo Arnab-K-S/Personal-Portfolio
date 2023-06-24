@@ -1,20 +1,13 @@
 {
   "files": {
     "main.css": "/Personal-Portfolio-Reactjs/static/css/main.958e8e3f.css",
-    "main.js": "/Personal-Portfolio-Reactjs/static/js/main.5d6fa586.js",
-    "static/media/CodingWebsite.png": "/Personal-Portfolio-Reactjs/static/media/CodingWebsite.049b1974a4894062a7a3.png",
-    "static/media/DeeporBill.png": "/Personal-Portfolio-Reactjs/static/media/DeeporBill.45e5f7d07eb55dd213b2.png",
-    "static/media/E-Library.png": "/Personal-Portfolio-Reactjs/static/media/E-Library.5c51b3aee75ef5585dbc.png",
-    "static/media/Marvel.png": "/Personal-Portfolio-Reactjs/static/media/Marvel.4ba66b77f88d2e3ba5f8.png",
+    "main.js": "/Personal-Portfolio-Reactjs/static/js/main.6b3e1cb5.js",
     "static/media/w3.jpg": "/Personal-Portfolio-Reactjs/static/media/w3.052d45ba3f56c9f4aab1.jpg",
     "static/media/w1.jpg": "/Personal-Portfolio-Reactjs/static/media/w1.9265fb4861e31df17e6d.jpg",
     "static/media/w2.jpg": "/Personal-Portfolio-Reactjs/static/media/w2.2be6c54dc0e54e23a564.jpg",
-    "static/media/ChatApp.png": "/Personal-Portfolio-Reactjs/static/media/ChatApp.980df5f4f592e2b0c327.png",
-    "static/media/Personal Portfolio.png": "/Personal-Portfolio-Reactjs/static/media/Personal Portfolio.6e5c35d24e0c0b628864.png",
     "static/media/w5.jpg": "/Personal-Portfolio-Reactjs/static/media/w5.efdf5dfebff454cd884b.jpg",
     "static/media/w4.jpg": "/Personal-Portfolio-Reactjs/static/media/w4.b50abca13cb30f8c4ffe.jpg",
     "static/media/transparent.webp": "/Personal-Portfolio-Reactjs/static/media/transparent.66df924a9aacb369d500.webp",
-    "static/media/ChatApp2.png": "/Personal-Portfolio-Reactjs/static/media/ChatApp2.c9ab397dedda549baea4.png",
     "static/media/webdesign.jpg": "/Personal-Portfolio-Reactjs/static/media/webdesign.b35d7509330d2e888879.jpg",
     "static/media/project.png": "/Personal-Portfolio-Reactjs/static/media/project.9926afda780608f91457.png",
     "static/media/2.jpg": "/Personal-Portfolio-Reactjs/static/media/2.d2488c64b2dafe0e427a.jpg",
@@ -23,10 +16,10 @@
     "static/media/me.png": "/Personal-Portfolio-Reactjs/static/media/me.57b4e4a6eb6aefcd30eb.png",
     "index.html": "/Personal-Portfolio-Reactjs/index.html",
     "main.958e8e3f.css.map": "/Personal-Portfolio-Reactjs/static/css/main.958e8e3f.css.map",
-    "main.5d6fa586.js.map": "/Personal-Portfolio-Reactjs/static/js/main.5d6fa586.js.map"
+    "main.6b3e1cb5.js.map": "/Personal-Portfolio-Reactjs/static/js/main.6b3e1cb5.js.map"
   },
   "entrypoints": [
     "static/css/main.958e8e3f.css",
-    "static/js/main.5d6fa586.js"
+    "static/js/main.6b3e1cb5.js"
   ]
 }
