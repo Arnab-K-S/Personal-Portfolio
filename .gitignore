@@ -1,2 +1,4 @@
 node_modules
 build
+run.py
+.vscode
