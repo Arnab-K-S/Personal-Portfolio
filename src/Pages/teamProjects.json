@@ -1,0 +1,25 @@
+ {
+ "TeamProjects": [
+    {
+        "slno": "1",
+        "name": "Deepor Bill",
+        "img": "../projects/DeeporBill.png",
+        "teamname": "Coding Noobs",
+        "members": ["Aryadeep Gogoi", "Mritunjoy Chinte", "Vishnu Padmakumar"],
+        "url": "https://coding-noobs-nits.github.io/DeeporBill/Home.html",
+        "repo": "https://github.com/CODING-NOOBS-NITS/DeeporBill",
+        "description": "Moving forward on the journey of web development and welcoming a new member Aryadeep Gogoi to our team whose fasinating design skills along with our experience clubbed together to make a new project on Deepor Bill.The first team project after learning HTML CSS and JavaScript at an Intermediate level."
+    },
+
+    {
+        "slno": "2",
+        "name": "E-Libary Project",
+        "teamname": "Coding Noobs",
+        "img": "../projects/E-Library.png",
+        "members":["Mritunjoy Chinte","Vishnu Padmakumar"],
+        "url": "https://coding-noobs-nits.github.io/E-Library/home.html",
+        "repo": "https://github.com/CODING-NOOBS-NITS/E-Library",
+        "description": " The First Project and a team work on web development in fulfilment of Fast Web 2022 Hackathon , held by the ECS Society, under the event spectrum.We are glad to say that even having a very minor knowledge of HTML and CSS ( no JavaScript was used), we bagged the 2nd Runner Up. The Judges were Impressed with our work too. \n After that several commits were made to this project until completion.The website is a sample to a Library Website along with multiple features."
+    }
+]
+ }

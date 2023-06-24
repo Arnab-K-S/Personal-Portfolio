@@ -1,10 +1,6 @@
 
 const infoCards = (props) => {
-    let cardHeading = props.cardHeading;
-    let cardText = props.cardText;
-    let cardImg = props.cardImg;  
-    let link = props.href
-    let TeamMembers=props.team
+    const {cardHeading,cardText,team,cardImg,links}=props;
     return (
         <>
             <div className="card">
@@ -17,13 +13,13 @@ const infoCards = (props) => {
                 </div>
                     <div className='members'>
                 {
-                        TeamMembers.map((mem) => (
+                        team.map((mem) => (
                                 <div className='membernames'>{mem}</div>
                         ))
                 }
                  </div>
-                    <button> <a href={link[0]}>Live Url</a></button>
-                    <button> <a href={link[1]}>Github Repo</a></button>
+                    <button> <a href={links[0]}>Live Url</a></button>
+                    <button> <a href={links[1]}>Github Repo</a></button>
             </div>
         </>
     );
