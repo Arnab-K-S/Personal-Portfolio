@@ -49,7 +49,7 @@
         "name": "Work Tracker",
         "img":"https://res.cloudinary.com/dbuu9wsm5/image/upload/v1688977340/Personal%20Portfolio/Todo_list_kvjoku.png",
         "url": "https://arnabs-todo-list.netlify.app/",
-        "repo": "https://github.com/Arnab-K-S/ARNAB-CODING-WEBSITE",
+        "repo": "https://github.com/Arnab-K-S/GDSC-TODO-LIST-PROJECT/tree/hosted",
         "description": "A Todo list with priority feature and colour scheme based on deadlines. It also has a live count down timer as well"
     },
     
