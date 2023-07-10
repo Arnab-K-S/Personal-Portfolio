@@ -3,7 +3,7 @@
     {
         "slno": "1",
         "name": "Personal Portfolio",
-        "img":"../projects/PersonalPortfolio.png",
+        "img":"https://res.cloudinary.com/dbuu9wsm5/image/upload/v1688969885/Personal%20Portfolio/PersonalPortfolio_qnkr04.png",
         "url": "https://arnab-k-s.github.io/Personal-Portfolio-/",
         "repo": "https://github.com/Arnab-K-S/Personal-Portfolio-",
         "description": "An archive collection and database to all my projects and skills.A collection of all the Skill Related information.This version of is website made using pure Vanila JS and CSS. (Same as the current one but from scratch without using Reactjs)"
@@ -12,8 +12,8 @@
     {
         "slno": "2",
         "name": "Marvel Movies Website",
+        "img": "https://res.cloudinary.com/dbuu9wsm5/image/upload/v1688969890/Personal%20Portfolio/Marvel_bzkr2z.png",
         "url": "https://arnab-k-s.github.io/Marvel-Website/marvel.html",
-        "img": "../projects/Marvel.png",
         "repo": "https://github.com/Arnab-K-S/Marvel-Website",
         "description": "Right from Childhood i am really fasinated with Sci-Fi stories and movies.Marvel Presented them in the most beautiful way even having half the character rights to other studios.This websites contains list of all marvel movies released with their dates.The concept of CSS Grid is used appreciably in the website.(Pure Vanila JS and CSS)"
     },
@@ -21,7 +21,7 @@
     {
         "slno": "3",
         "name": "Real-Time-Chat-App 2.0",
-        "img":"../projects/ChatApp2.png",
+        "img":"https://res.cloudinary.com/dbuu9wsm5/image/upload/v1688969885/Personal%20Portfolio/ChatApp2_wrqfc9.png",
         "url": "https://arnab-k-s.github.io/Real-Time-Chat-App-2.0/login-local.html",
         "repo": "https://github.com/Arnab-K-S/Real-Time-Chat-App-2.0",
         "description": "Learning from mistakes is the key to improvement. After the first Chat App trial i made improvements in the UI Design and a group chat app with Basic Login System where one  can chit-chat and gossip with their friends.The site uses Firebase Resouces for its Backend. (Pure Vanila JS and CSS)"
@@ -30,7 +30,7 @@
     {
         "slno": "4",
         "name": "Real-Time-Chat-App",
-        "img":"../projects/ChatApp.png",
+        "img":"https://res.cloudinary.com/dbuu9wsm5/image/upload/v1688969886/Personal%20Portfolio/ChatApp_scdisz.png",
         "url": "https://arnab-k-s.github.io/Real-Time-Chat-App/chat.html",
         "repo": "https://github.com/Arnab-K-S/Real-Time-Chat-App",
         "description": "Communication is a great way to improve connectivity between people. Our life is goverened by social media apps and drawing an inspiration i built a Real Time Chat App with Basic Login System(Pure Vanila JS and CSS + Firebase).The App has an option to choose over variety of wallpapers and the base colour is black."
@@ -39,7 +39,7 @@
     {
         "slno": "5",
         "name": "Coding Website",
-        "img":"../projects/CodingWebsite.png",
+        "img":"https://res.cloudinary.com/dbuu9wsm5/image/upload/v1688969891/Personal%20Portfolio/CodingWebsite_sofa12.png",
         "url": "https://arnab-k-s.github.io/ARNAB-CODING-WEBSITE",
         "repo": "https://github.com/Arnab-K-S/ARNAB-CODING-WEBSITE",
         "description": "A Prototype Website of my own coding website , with an inbuilt sand box HTML CSS playground to tussle around with.Don't miss out the detailed icon animation at the bottom of the page.The project itself helped me to gain new experiences about sandbox and making flip cards using only css."
@@ -48,10 +48,18 @@
     {
         "slno": "6",
         "name": "Personal Portfolio (Reactjs)",
-        "img":"../projects/PersonalPortfolio.png",
+        "img":"https://res.cloudinary.com/dbuu9wsm5/image/upload/v1688969885/Personal%20Portfolio/PersonalPortfolio_qnkr04.png",
         "url": "https://arnab-k-s.github.io/Personal-Portfolio-Reactjs/",
         "repo": "https://github.com/Arnab-K-S/Personal-Portfolio-Reactjs.git",
         "description": "This is the website which you are currently browsing. Brought together all my projects skill and other professional information to give a birdeye view.A sneak peek about my knowledge and creativity.This is my first project on Reactjs and made my fundamentals really sharp."
+    },
+    {
+        "slno": "7",
+        "name": "Waste Management Website For Campus",
+        "img":"https://res.cloudinary.com/dbuu9wsm5/image/upload/v1688972986/Personal%20Portfolio/Waste_Manangement_nxvgfz.png",
+        "url": "https://arnab-k-s.github.io/Software-Track/",
+        "repo": "https://github.com/Arnab-K-S/Software-Track.git",
+        "description": "This is a prototype of a waste management system to be deployed for the campus.Futher improvement will be made by adding a strong backend, but for now only the frontend is complete"
     }
 ],
 
@@ -59,7 +67,7 @@
        {
            "slno": "1",
            "name": "Deepor Bill",
-           "img": "../projects/DeeporBill.png",
+           "img": "https://res.cloudinary.com/dbuu9wsm5/image/upload/v1688969892/Personal%20Portfolio/DeeporBill_wgjj3w.png",
            "teamname": "Coding Noobs",
            "members": ["Aryadeep Gogoi", "Mritunjoy Chinte", "Vishnu Padmakumar"],
            "url": "https://coding-noobs-nits.github.io/DeeporBill/Home.html",
@@ -71,7 +79,7 @@
            "slno": "2",
            "name": "E-Libary Project",
            "teamname": "Coding Noobs",
-           "img": "../projects/E-Library.png",
+           "img": "https://res.cloudinary.com/dbuu9wsm5/image/upload/v1688969891/Personal%20Portfolio/E-Library_amwxn7.png",
            "members":["Mritunjoy Chinte","Vishnu Padmakumar"],
            "url": "https://coding-noobs-nits.github.io/E-Library/home.html",
            "repo": "https://github.com/CODING-NOOBS-NITS/E-Library",

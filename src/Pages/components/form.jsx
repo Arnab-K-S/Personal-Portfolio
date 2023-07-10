@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { getDatabase, push, ref } from "firebase/database";
 import { initializeApp } from "firebase/app";
+// import Comments from './comments';
 
 const firebaseConfig = {
     apiKey: "AIzaSyCsa8Tj_5kj5ugy2PLwowp6Z0u-T6RRhJs",
@@ -13,7 +14,7 @@ const firebaseConfig = {
     appId: "1:430090594611:web:e99a41451558fbd4107646"
 };
 const Form = () => {
-    const app = initializeApp(firebaseConfig);
+    initializeApp(firebaseConfig);
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [comment, setComment] = useState('');
@@ -46,6 +47,8 @@ const Form = () => {
                 <button id="submit" onClick={send}>Submit</button>
                 <div className="commentContainer"></div>
             </div>
+
+            {/* <Comments/> */}
         </>
     )
 }

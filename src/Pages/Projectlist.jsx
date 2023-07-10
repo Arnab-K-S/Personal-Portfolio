@@ -1,7 +1,6 @@
 import "./css/project.css";
 import InfoCards from "./components/infoCards";
 import projects from "./projects.json";
-// import TProjects from "./teamProjects.json";
 
 const Projects = () => {
   return (
