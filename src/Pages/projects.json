@@ -44,9 +44,17 @@
         "repo": "https://github.com/Arnab-K-S/ARNAB-CODING-WEBSITE",
         "description": "A Prototype Website of my own coding website , with an inbuilt sand box HTML CSS playground to tussle around with.Don't miss out the detailed icon animation at the bottom of the page.The project itself helped me to gain new experiences about sandbox and making flip cards using only css."
     },
-    
     {
         "slno": "6",
+        "name": "Work Tracker",
+        "img":"https://res.cloudinary.com/dbuu9wsm5/image/upload/v1688977340/Personal%20Portfolio/Todo_list_kvjoku.png",
+        "url": "https://arnabs-todo-list.netlify.app/",
+        "repo": "https://github.com/Arnab-K-S/ARNAB-CODING-WEBSITE",
+        "description": "A Todo list with priority feature and colour scheme based on deadlines. It also has a live count down timer as well"
+    },
+    
+    {
+        "slno": "7",
         "name": "Personal Portfolio (Reactjs)",
         "img":"https://res.cloudinary.com/dbuu9wsm5/image/upload/v1688969885/Personal%20Portfolio/PersonalPortfolio_qnkr04.png",
         "url": "https://arnab-k-s.github.io/Personal-Portfolio-Reactjs/",
@@ -54,7 +62,7 @@
         "description": "This is the website which you are currently browsing. Brought together all my projects skill and other professional information to give a birdeye view.A sneak peek about my knowledge and creativity.This is my first project on Reactjs and made my fundamentals really sharp."
     },
     {
-        "slno": "7",
+        "slno": "8",
         "name": "Waste Management Website For Campus",
         "img":"https://res.cloudinary.com/dbuu9wsm5/image/upload/v1688972986/Personal%20Portfolio/Waste_Manangement_nxvgfz.png",
         "url": "https://arnab-k-s.github.io/Software-Track/",
